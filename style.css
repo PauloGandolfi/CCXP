@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+.cabecalho{
+    background-color: #FFD900;
+    padding: 30px;
+}
+.container{
+    background-color: #514988;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+#title-main{
+    font-size: 70px;
+    color: #FFD900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#text-p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+#text-center{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+}
+.video{
+    background-color: white
+}
+.count-down{
+    padding: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #514988;
+    font-size: 25px;
+}
+.contador{
+    font-size: 30px;   
+}
+#subtitle-countdown{
+    color: #E33881;
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
+.footer h1{
+    font-size: 27px;
+    color: #E33881;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    color: white;
+    background-color: #514988;
+    width: 596px;
+    margin-top: 90px;
+    border: none;
+    height: 148px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*<div class="d-inline p-2 text-bg-primary">d-inline</div>
+<div class="d-inline p-2 text-bg-dark">d-inline</div>/*
+
