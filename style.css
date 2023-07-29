@@ -51,6 +51,7 @@ body{
     display: grid;
     grid-auto-flow: column;
     text-align: center;
+    padding: 30px;
 }
 .footer h1{
     font-size: 27px;
@@ -68,6 +69,12 @@ button{
     font-size: 42px;
     border-radius: 20px;
     cursor: pointer;
+}
+.card img{
+    padding: 30px;
+}
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px rgb(172, 167, 167);
 }
 
 /*<div class="d-inline p-2 text-bg-primary">d-inline</div>
