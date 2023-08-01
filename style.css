@@ -72,9 +72,34 @@ button{
 }
 .card img{
     padding: 30px;
+    cursor: pointer;
 }
 .card-highlight{
     box-shadow: 10px 10px 10px 10px rgb(172, 167, 167);
+}
+.card-selected{
+    border: 5px solid green;
+}
+input{
+    background-color: #FFD900;
+    border-radius: 10px;
+    color: black;
+    border: 0pt;
+    margin: 30px;
+    width: 500px;
+    height: 70px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    text-align: center;
+    background-color: #514988;
+}
+#input2{
+    cursor: pointer;
 }
 
 /*<div class="d-inline p-2 text-bg-primary">d-inline</div>

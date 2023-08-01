@@ -1,3 +1,5 @@
+const ingressos = [];
+
 function highlightCard(selector){
 
     var element = document.getElementById(selector);
@@ -49,4 +51,14 @@ function addKeyboardEventListeners(){
         }
     }, false);
 }
+selectCard = (selector) => {
+    var element = document.querySelector(selector);
+    element.classList.toggle("card-selected");
+    if(ingressos.includes(selector)) ingressos.pop(selector);
+    else ingressos.push(selector)
+}
+showSelectedCards = () =>{
+    if(ingressos.length > 0) alert("ingressos selecionados:" + ingressos);
+}
+
 addKeyboardEventListeners();
